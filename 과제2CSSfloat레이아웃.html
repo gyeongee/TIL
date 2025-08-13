@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* 전체 높이 */
+            width: 100vw;  /* 전체 너비 */
+        }
+
+        header {
+            height: 10%;
+            background-color: #EA4335;
+        }
+
+        nav {
+            height: 10%;
+            background-color: #FF5E00;
+        }
+
+        .main {
+            display: flex;
+            height: 60%;
+        }
+
+        aside {
+            width: 30%;
+            background-color: #4285F4;
+        }
+
+        .sections {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section1 {
+            flex: 1;
+            background-color: #34A853;
+        }
+
+        .section2 {
+            flex: 1;
+            background-color: #FBBC05;
+        }
+
+        footer {
+            height: 20%;
+            background-color: #8A8D92;
+        }
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <nav>nav</nav>
+    <div class="main">
+        <aside>aside</aside>
+        <div class="sections">
+            <div class="section1">section1</div>
+            <div class="section2">section2</div>
+        </div>
+    </div>
+    <footer>footer</footer>
+</body>
+</html>
